@@ -30,5 +30,7 @@ public class CardDealer
         oneSpade.setSuit("Spade");
         oneSpade.setValue(1);
         
+        System.out.println("Your card number is now " + oneSpade.getValue() + ", shape is " + oneSpade.getSuit());
+        
     }
 }
