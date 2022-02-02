@@ -19,5 +19,11 @@ public class CardDealer
     {
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
+        
+        Card sixDiamonds = new Card("Dias", 6);
+        sixDiamonds.setSuit("Diamonds");
+        sixDiamonds.setValue(6);
+        
+        System.out.println("Your card number is " + sixDiamonds.getValue() + ", shape is " + sixDiamonds.getSuit());
     }
 }
