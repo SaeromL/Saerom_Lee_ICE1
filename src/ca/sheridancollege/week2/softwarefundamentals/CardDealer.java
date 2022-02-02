@@ -24,5 +24,7 @@ public class CardDealer
         sixDiamonds.setSuit("Diamonds");
         sixDiamonds.setValue(6);
         
+        System.out.println("Your card number is " + sixDiamonds.getValue() + ", shape is " + sixDiamonds.getSuit());
+        
     }
 }
