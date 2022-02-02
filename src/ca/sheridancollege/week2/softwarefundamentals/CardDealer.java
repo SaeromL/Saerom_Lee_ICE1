@@ -32,5 +32,9 @@ public class CardDealer
         
         System.out.println("Your card number is now " + oneSpade.getValue() + ", shape is " + oneSpade.getSuit());
         
+        Card sevenHearts = new Card("hearts", 7);
+        sevenHearts.setSuit("Hearts");
+        sevenHearts.setValue(7);
+        
     }
 }
